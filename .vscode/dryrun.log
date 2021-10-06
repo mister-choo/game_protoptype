@@ -1,0 +1,20 @@
+mingw32-make.exe --dry-run --always-make --keep-going --print-directory
+mingw32-make: Entering directory 'c:/Users/miste/Desktop/ready/game_protoptype'
+g++ -c -o obj/PerlinNoise.o src/PerlinNoise.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/animation.o src/animation.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+ 
+g++ -c -o obj/entity.o src/entity.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/environment.o src/environment.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/inputs.o src/inputs.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+ 
+g++ -c -o obj/main.o src/main.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/map.o src/map.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/menu.o src/menu.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/movement.o src/movement.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/structs.o src/structs.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/text.o src/text.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/texture.o src/texture.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -c -o obj/window.o src/window.cpp -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+g++ -o bin/Game.exe obj/PerlinNoise.o obj/animation.o obj/entity.o obj/environment.o obj/inputs.o obj/main.o obj/map.o obj/menu.o obj/movement.o obj/structs.o obj/text.o obj/texture.o obj/window.o -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing -I./include/ -L./lib/ -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+mingw32-make: Leaving directory 'c:/Users/miste/Desktop/ready/game_protoptype'
+ 

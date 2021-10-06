@@ -1,0 +1,612 @@
+mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+mingw32-make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Oct 06 18:20:51 2021
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Android\Jdk\microsoft_dist_openjdk_1.8.0.25
+# makefile (from 'Makefile', line 6)
+OBJ := obj
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 5)
+SRC := src
+# environment
+USERPROFILE = C:\Users\miste
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\miste\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5716be1b-f48b-40a6-bf31-520d8b707e08-sock
+# environment
+VSCODE_CWD = C:\Users\miste\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := mingw32-make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17440_KBJNGYXIUIROZOKQ
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\miste\AppData\Roaming\Code\CachedData\7f6ab5485bbc008386c4386d08766667e155244e
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\miste\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\miste\OneDrive
+# makefile
+CURDIR := c:/Users/miste/Desktop/ready/game_protoptype
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 17440
+# makefile (from 'Makefile', line 18)
+sources = $(wildcard $(SRC)/*.cpp)
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 9)
+LIB := ./lib/
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 8)
+INCLUDE := ./include/
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/msys64/usr/bin/sh.exe
+# environment
+HOMEPATH = \Users\miste
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 19)
+objects = $(patsubst $(SRC)/%.cpp, $(OBJ)/%.o , $(wildcard $(SRC)/*.cpp))
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+MOSQUITTO_DIR = C:\Program Files\mosquitto
+# environment
+PATH = C:\msys64\mingw64\bin;C:\msys64\usr\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Polyspace\R2021a\runtime\win64;C:\Program Files\Polyspace\R2021a\bin;C:\Program Files\MATLAB\R2011a\runtime\win64;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\msys64\mingw64\bin;C:\Users\miste\AppData\Local\Microsoft\WindowsApps;C:\Users\miste\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\include;C:\Users\miste\.dotnet\tools;C:\Users\miste\AppData\Local\GitHubDesktop\bin
+# environment
+COMPUTERNAME = DESKTOP-KCTDDP6
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 20)
+headers = $(wildcard $(INC)/*.h)
+# environment
+LOGONSERVER = \\DESKTOP-KCTDDP6
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = miste
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 7)
+INC := include
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-KCTDDP6
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := bin/Game.exe
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 16)
+EXECUTABLE := Game.exe
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-KCTDDP6
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 2)
+CXX_FLAGS := -g -Wall -Wextra -std=c++17 -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare -Wno-switch -Wno-narrowing
+# makefile (from 'Makefile', line 4)
+BIN := bin
+# environment
+APPDATA = C:\Users\miste\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'Makefile', line 15)
+LIBRARIES := -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -lSDL2_gfx
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\miste\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\296f9648a2ea60011aac48affc0e2adf-1.60.2-main-sock
+# environment
+INCLUDE_PATH = C:\msys64\mingw64\include; C:\msys64\usr\include; C:\cygwin64\usr\include;
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e09
+# makefile (from 'Makefile', line 1)
+CXX := g++
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=31/161=19%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (key c:/Users/miste/Desktop/ready/game_protoptype/include, mtime 1613589940): 16 files, no impossibilities.
+# src (key c:/Users/miste/Desktop/ready/game_protoptype/src, mtime 1612378913): 17 files, no impossibilities.
+# . (key c:/Users/miste/Desktop/ready/game_protoptype, mtime 1612721301): 11 files, no impossibilities.
+# obj (key c:/Users/miste/Desktop/ready/game_protoptype/obj, mtime 1615041527): No files, no impossibilities so far.
+
+# 44 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 23):
+	$(CXX) -c -o $@ $< $(CXX_FLAGS) -I$(INCLUDE) -L$(LIB) $(LIBRARIES)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+obj/map.o: map.h entity.h inputs.h structs.h PerlinNoise.h movement.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/window.o: window.h dimensions.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/map.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/texture.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/menu.o: menu.h entity.h text.h inputs.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/structs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/animation.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dimensions.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/main.o: include/PerlinNoise.h include/animation.h include/dimensions.h include/entity.h include/environment.h include/inputs.h include/map.h include/menu.h include/movement.h include/structs.h include/text.h include/texture.h include/window.h src/PerlinNoise.cpp src/animation.cpp src/entity.cpp src/environment.cpp src/inputs.cpp src/main.cpp src/map.cpp src/menu.cpp src/movement.cpp src/structs.cpp src/text.cpp src/texture.cpp src/window.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/PerlinNoise.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/texture.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/text.o: text.h texture.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/PerlinNoise.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-18 12:22:24
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+text.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PerlinNoise.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+map.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+environment.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/texture.o: texture.h structs.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/PerlinNoise.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/animation.o: animation.h PerlinNoise.h entity.h inputs.h structs.h movement.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/inputs.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/entity.o: entity.h text.h dimensions.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+structs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/environment.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/inputs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+animation.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/movement.o: movement.h inputs.h structs.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/environment.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/window.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/menu.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/inputs.o: inputs.h structs.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/text.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+texture.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+entity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/movement.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/window.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/entity.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/structs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+movement.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/entity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/map.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/text.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Game.exe: obj/PerlinNoise.o obj/animation.o obj/entity.o obj/environment.o obj/inputs.o obj/main.o obj/map.o obj/menu.o obj/movement.o obj/structs.o obj/text.o obj/texture.o obj/window.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	$(CXX) -o $@ $^ $(CXX_FLAGS) -I$(INCLUDE) -L$(LIB) $(LIBRARIES)
+
+# Not a target:
+src/menu.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/structs.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+window.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+inputs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/animation.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+menu.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/movement.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/dimensions.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/environment.o: environment.h inputs.h menu.h text.h window.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=57/1024=6%, Rehash=0, Collisions=7/152=5%
+# VPATH Search Paths
+
+vpath %.cpp src
+vpath %.o obj
+vpath %.h include
+
+# 3 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 88 / storage = 1053 B / avg = 11 B
+# current buf: size = 8162 B / used = 1053 B / count = 88 / avg = 11 B
+
+# strcache performance: lookups = 160 / hit rate = 45%
+# hash-table stats:
+# Load=88/8192=1%, Rehash=0, Collisions=0/160=0%
+# Finished Make data base on Wed Oct 06 18:20:51 2021
+
+ 
